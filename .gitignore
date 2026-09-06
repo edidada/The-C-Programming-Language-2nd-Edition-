@@ -1,6 +1,21 @@
+# --- 通用临时/文本产物 ---
 *.out
+*.swp
+log
+
+# CMake 构建目录
+build/
+
+# 编译器/预编译产物
+*.o
+*.obj
+*.gch
+
+# 编辑器/辅助工具产物
+tags
+
+# 其它文本文件（保留 CMakeLists.txt 与必要文件）
 *.txt
 !CMakeLists.txt
-*.swp
+
 test.c
-log
