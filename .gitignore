@@ -1,5 +1,6 @@
 *.out
 *.txt
+!CMakeLists.txt
 *.swp
 test.c
 log
